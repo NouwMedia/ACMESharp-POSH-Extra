@@ -90,6 +90,9 @@
     <Compile Include="Util\VaultHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ACMESharp-POSH-Extra.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
