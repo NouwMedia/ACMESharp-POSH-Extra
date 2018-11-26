@@ -86,8 +86,6 @@
     <Compile Include="DeleteCertificate.cs" />
     <Compile Include="DeleteIdentifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Util\ClientHelper.cs" />
-    <Compile Include="Util\PkiHelper.cs" />
     <Compile Include="Util\PoshHelper.cs" />
     <Compile Include="Util\VaultHelper.cs" />
   </ItemGroup>
