@@ -22,7 +22,7 @@ namespace ACMESharp.POSH
 	/// </summary>
 	[Cmdlet(VerbsCommon.Remove, "Certificate", DefaultParameterSetName = PSET_DEFAULT)]
     [OutputType(typeof(CertificateInfo))]
-    public class DeleteCertificate : AcmeCmdlet
+    public class RemoveCertificate : AcmeCmdlet
 	{
         public const string PSET_DEFAULT = "Default";
         public const string PSET_LOCAL_ONLY = "LocalOnly";

@@ -12,7 +12,7 @@ namespace ACMESharp.POSH
 	/// </para>
 	/// </summary>
 	[Cmdlet(VerbsCommon.Remove, "Identifier", DefaultParameterSetName = PSET_DEFAULT)]
-    public class DeleteIdentifier : AcmeCmdlet
+    public class RemoveIdentifier : AcmeCmdlet
 	{
         public const string PSET_DEFAULT = "Default";
         public const string PSET_CHALLENGE = "Challenge";
